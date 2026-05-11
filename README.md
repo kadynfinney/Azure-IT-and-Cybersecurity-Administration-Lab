@@ -2,20 +2,19 @@
 
 ## Overview
 
-This project documents hands-on Azure administration labs focused on IT support, cloud administration, and cybersecurity fundamentals. The labs are based on core AZ-104 skills and are designed to build practical experience with Microsoft Entra ID, role-based access control, virtual networking, monitoring, virtual machines, and storage security.
+This project documents hands-on Azure administration labs focused on core IT and cybersecurity skills. The labs cover identity management, access control, networking, monitoring, and storage security inside Microsoft Azure.
 
-The goal of this lab series is to understand how Azure resources are created, secured, managed, monitored, and troubleshot in a real cloud environment. These skills are important for roles such as IT Support Specialist, Cloud Support Associate, Systems Administrator, SOC Analyst, Cloud Administrator, and entry-level Cybersecurity Analyst.
+The goal of this project is to build practical experience with the Azure tools used to manage users, secure resources, control network traffic, review logs, and protect cloud-based data.
 
-## Lab Focus Areas
+These skills are useful for roles such as IT Support Specialist, Cloud Support Associate, Junior Systems Administrator, SOC Analyst, IAM Analyst, and Cybersecurity Analyst.
 
-This project focuses on six major Azure administration and cybersecurity areas:
+## Labs Covered
 
-- Microsoft Entra ID identity management
-- Azure subscriptions and role-based access control
-- Azure virtual networking
-- Azure monitoring and logging
-- Azure virtual machine management
-- Azure storage management and security
+- Microsoft Entra ID Identities
+- Azure Subscriptions and RBAC
+- Azure Virtual Networking
+- Azure Monitoring
+- Azure Storage Management
 
 ---
 
@@ -23,32 +22,32 @@ This project focuses on six major Azure administration and cybersecurity areas:
 
 ## Description
 
-In this lab, Microsoft Entra ID was used to manage cloud-based identities, users, groups, and access control. Microsoft Entra ID is a core identity platform used to control who can access Azure resources and organizational applications.
+In this lab, Microsoft Entra ID was used to manage cloud identities, users, groups, and access. Microsoft Entra ID is Microsoft’s cloud identity platform and is one of the most important services for managing secure access in Azure.
 
-Identity management is one of the most important areas of cybersecurity because attackers often target user accounts, permissions, and authentication methods.
+Identity management is a major part of cybersecurity because user accounts are often the first target for attackers. Proper identity management helps protect systems from unauthorized access, weak permissions, and account misuse.
 
 ## Tasks Completed
 
 - Reviewed Microsoft Entra ID in the Azure portal
 - Created and managed user accounts
 - Created and managed security groups
-- Assigned users to groups
-- Reviewed identity and access settings
-- Explored authentication and account management options
-- Practiced basic identity administration tasks
+- Added users to groups
+- Reviewed identity settings
+- Practiced basic user and group administration
+- Explored how identities are used to access Azure resources
 
 ## Skills Demonstrated
 
 - User account management
-- Group-based access management
-- Identity and access management fundamentals
-- Basic cloud directory administration
-- Account security awareness
+- Group management
+- Identity and Access Management fundamentals
+- Cloud directory administration
+- Access control basics
 - Microsoft Entra ID navigation
 
 ## Cybersecurity Relevance
 
-Microsoft Entra ID is important for cybersecurity because it helps control user access, reduce unauthorized access, and support secure authentication. Managing identities properly helps protect cloud resources from account abuse, privilege misuse, and unauthorized logins.
+Microsoft Entra ID is important for cybersecurity because it controls who can access cloud resources. Managing users and groups correctly helps reduce unauthorized access and supports secure identity practices.
 
 ---
 
@@ -56,9 +55,9 @@ Microsoft Entra ID is important for cybersecurity because it helps control user 
 
 ## Description
 
-In this lab, Azure subscriptions and Role-Based Access Control were reviewed and configured. RBAC allows administrators to assign permissions based on job roles instead of giving users unnecessary access.
+In this lab, Azure subscriptions and Role-Based Access Control were reviewed to understand how permissions are assigned in Azure. RBAC allows administrators to give users access based on their role instead of giving unnecessary permissions.
 
-This supports the principle of least privilege, which is a major cybersecurity best practice.
+This supports the principle of least privilege, which means users should only have the access they need to do their job.
 
 ## Tasks Completed
 
@@ -66,22 +65,22 @@ This supports the principle of least privilege, which is a major cybersecurity b
 - Explored Azure role assignments
 - Reviewed built-in Azure roles
 - Assigned roles to users or groups
-- Compared different access levels
-- Practiced permission management through RBAC
-- Reviewed how access is scoped to subscriptions, resource groups, and resources
+- Compared different permission levels
+- Reviewed access scopes for subscriptions, resource groups, and resources
+- Practiced managing permissions through RBAC
 
 ## Skills Demonstrated
 
 - Azure subscription management
 - Role-Based Access Control
-- Least privilege access control
-- Permission assignment
+- Permission management
+- Least privilege access
 - Access scope management
 - Cloud security administration
 
 ## Cybersecurity Relevance
 
-RBAC is important because users should only have the access they need to perform their job. Poor permission management can lead to privilege escalation, accidental changes, data exposure, and security risks. RBAC helps reduce those risks by controlling access at different levels.
+RBAC is important because poor permission management can lead to security risks. Users with too much access can accidentally or intentionally change resources, expose data, or increase the impact of a compromised account.
 
 ---
 
@@ -89,52 +88,53 @@ RBAC is important because users should only have the access they need to perform
 
 ## Description
 
-In this lab, Azure Virtual Networking was used to understand how cloud resources communicate securely. Virtual networks, subnets, DNS, and Network Security Groups are key parts of Azure infrastructure.
+In this lab, Azure Virtual Networking was used to understand how Azure resources communicate. Virtual networks, subnets, DNS, and Network Security Groups are key parts of cloud infrastructure.
 
-Networking is important for both IT administration and cybersecurity because secure communication depends on properly configured network boundaries and traffic rules.
+Networking is important for both IT and cybersecurity because secure communication depends on properly configured network boundaries and traffic rules.
 
 ## Tasks Completed
 
 - Created and reviewed Azure virtual networks
 - Created and reviewed subnets
-- Explored private IP addressing
-- Reviewed DNS settings
+- Reviewed private IP addressing
+- Explored DNS settings
 - Configured Network Security Groups
 - Reviewed inbound and outbound security rules
-- Examined how Azure resources communicate inside a VNet
+- Examined how resources communicate inside a virtual network
 
 ## Skills Demonstrated
 
 - Virtual network configuration
-- Subnet planning
+- Subnet management
 - Network Security Group management
-- Cloud DNS awareness
+- Cloud networking fundamentals
+- DNS awareness
+- Traffic control
 - Basic network segmentation
-- Inbound and outbound traffic control
 
 ## Cybersecurity Relevance
 
-Azure networking is important for protecting cloud systems. Network Security Groups help control which traffic is allowed or denied. Proper subnetting and traffic filtering reduce attack surfaces and help prevent unnecessary exposure of cloud resources.
+Azure Virtual Networking is important because it helps control how resources connect to each other and to the internet. Network Security Groups help reduce exposure by allowing or denying traffic based on rules.
 
 ---
 
-# 4. Azure Monitoring and Logging
+# 4. Azure Monitoring
 
 ## Description
 
-In this lab, Azure monitoring tools were used to review logs, alerts, metrics, and resource activity. Monitoring is critical for detecting issues, investigating events, and understanding what is happening inside a cloud environment.
+In this lab, Azure Monitoring tools were used to review logs, metrics, alerts, and activity in the Azure environment. Monitoring helps administrators understand what is happening across cloud resources.
 
-This lab connects directly to cybersecurity because logs are used in incident response, threat detection, auditing, and troubleshooting.
+Monitoring is a key cybersecurity skill because logs and alerts are used to detect suspicious activity, investigate incidents, and troubleshoot problems.
 
 ## Tasks Completed
 
 - Reviewed Azure Monitor
 - Explored activity logs
 - Reviewed resource metrics
-- Created or reviewed alerting options
-- Examined logs for troubleshooting
-- Reviewed monitoring data for Azure resources
-- Practiced identifying important events and resource changes
+- Examined log data
+- Reviewed alerting options
+- Used monitoring data for troubleshooting
+- Practiced identifying important resource events
 
 ## Skills Demonstrated
 
@@ -144,63 +144,31 @@ This lab connects directly to cybersecurity because logs are used in incident re
 - Resource troubleshooting
 - Cloud visibility
 - Security monitoring basics
+- Event analysis
 
 ## Cybersecurity Relevance
 
-Monitoring helps detect suspicious activity, failed changes, unauthorized access attempts, resource failures, and performance issues. Logs are essential for SOC analysts, cloud administrators, and IT teams because they provide evidence of what happened in the environment.
+Monitoring is important because security teams need visibility into cloud activity. Logs help identify failed changes, suspicious behavior, access issues, system errors, and possible security incidents.
 
 ---
 
-# 5. Azure Virtual Machine Management
+# 5. Azure Storage Management
 
 ## Description
 
-In this lab, Azure Virtual Machines were created and managed to understand how cloud-based servers are deployed and maintained. Virtual machines are commonly used for hosting applications, running services, testing security tools, and building IT labs.
+In this lab, Azure Storage was used to understand how cloud data is stored, managed, and secured. Azure Storage includes storage accounts, blob storage, file shares, access tiers, and access settings.
 
-VM management is important because servers must be secured, monitored, patched, and properly configured.
-
-## Tasks Completed
-
-- Reviewed Azure VM deployment options
-- Created or managed virtual machines
-- Configured VM size and region settings
-- Reviewed disks, networking, and access settings
-- Connected to virtual machines
-- Reviewed VM performance and status
-- Examined basic VM security settings
-
-## Skills Demonstrated
-
-- Cloud server deployment
-- VM configuration
-- Remote access basics
-- Disk and network configuration
-- Server administration fundamentals
-- Azure compute management
-
-## Cybersecurity Relevance
-
-Virtual machines must be secured because they can be exposed to the internet or connected to sensitive cloud networks. Proper VM management includes controlling access, reducing open ports, monitoring activity, applying updates, and protecting workloads from attacks.
-
----
-
-# 6. Azure Storage Management
-
-## Description
-
-In this lab, Azure Storage was used to understand how cloud data is stored, accessed, and protected. Azure Storage includes storage accounts, blob storage, file shares, access tiers, and security settings.
-
-Storage security is important because cloud storage often holds sensitive files, logs, backups, and application data.
+Storage security is important because cloud storage can contain sensitive files, logs, backups, and application data.
 
 ## Tasks Completed
 
-- Created or reviewed storage accounts
+- Created and reviewed storage accounts
 - Explored blob storage
 - Reviewed Azure file shares
 - Examined access tiers
 - Reviewed storage access settings
+- Practiced managing cloud-based storage
 - Explored storage security options
-- Practiced managing cloud-based data storage
 
 ## Skills Demonstrated
 
@@ -208,12 +176,13 @@ Storage security is important because cloud storage often holds sensitive files,
 - Blob storage basics
 - File share management
 - Storage access control
+- Cloud data management
 - Data security awareness
-- Cloud storage administration
+- Storage security fundamentals
 
 ## Cybersecurity Relevance
 
-Cloud storage must be protected from unauthorized access and misconfiguration. Poor storage security can lead to data leaks, public exposure, or loss of sensitive information. Managing access, reviewing permissions, and understanding storage security settings helps reduce risk.
+Azure Storage must be secured to prevent unauthorized access and data exposure. Misconfigured storage can lead to serious security issues, including public data leaks. Proper access control helps protect sensitive cloud data.
 
 ---
 
@@ -225,7 +194,6 @@ Cloud storage must be protected from unauthorized access and misconfiguration. P
 - Azure Virtual Network
 - Network Security Groups
 - Azure Monitor
-- Azure Virtual Machines
 - Azure Storage Accounts
 - Azure Blob Storage
 - Azure Files
@@ -236,44 +204,40 @@ Cloud storage must be protected from unauthorized access and misconfiguration. P
 
 ## Identity and Access Management
 
-This lab series helped build a better understanding of how users, groups, roles, and permissions are managed in Azure. Identity is a major part of cloud security because access must be controlled carefully.
+This lab helped build a stronger understanding of how users, groups, and identities are managed in Azure.
 
 ## Least Privilege
 
-RBAC showed how users should only receive the permissions required for their role. This reduces unnecessary access and lowers security risk.
+RBAC showed how permissions should be assigned based on job responsibilities instead of giving users broad access.
 
 ## Network Security
 
-Azure Virtual Networking and Network Security Groups showed how cloud traffic can be controlled and segmented. This helps protect systems from unwanted access.
+Azure Virtual Networking showed how cloud resources communicate and how Network Security Groups help control traffic.
 
 ## Monitoring and Visibility
 
-Azure Monitor showed how logs, metrics, and alerts help administrators detect problems and investigate events.
+Azure Monitor showed how logs, metrics, and alerts help detect problems, investigate events, and support troubleshooting.
 
-## Cloud Compute Management
+## Storage Security
 
-Azure Virtual Machines demonstrated how cloud servers are deployed, configured, accessed, and managed.
-
-## Data Protection
-
-Azure Storage showed how cloud data is stored and why access control is important for protecting sensitive information.
+Azure Storage Management showed how cloud data is stored and why permissions must be reviewed carefully.
 
 ---
 
 # Real-World IT and Cybersecurity Applications
 
-These labs connect to real job tasks in IT and cybersecurity, including:
+These labs connect to real job tasks, including:
 
 - Creating and managing user accounts
-- Assigning permissions based on job roles
-- Securing cloud resources
+- Managing groups and access
+- Assigning permissions using RBAC
+- Applying least privilege access
+- Configuring virtual networks
+- Reviewing network security rules
+- Monitoring Azure activity
 - Reviewing logs and alerts
-- Troubleshooting cloud systems
-- Managing virtual machines
-- Configuring network access rules
-- Protecting cloud storage
-- Supporting compliance and auditing
-- Applying least privilege access principles
+- Managing cloud storage
+- Protecting cloud data from unauthorized access
 
 ---
 
@@ -287,16 +251,16 @@ This project is useful preparation for roles such as:
 - Junior Systems Administrator
 - Azure Administrator
 - SOC Analyst
-- Cybersecurity Analyst
 - IAM Analyst
+- Cybersecurity Analyst
 - Cloud Security Analyst
 
 ---
 
 # Conclusion
 
-This Azure IT and Cybersecurity Administration Lab helped build hands-on experience with important cloud administration and security concepts. The labs covered identity management, RBAC, networking, monitoring, virtual machines, and storage management.
+This Azure IT and Cybersecurity Administration Lab helped build hands-on experience with important Azure services used in real IT and cybersecurity environments.
 
-These skills are valuable because modern IT and cybersecurity teams rely on cloud platforms like Azure to manage users, protect resources, monitor activity, and support business systems.
+The labs focused on Microsoft Entra ID, RBAC, virtual networking, monitoring, and storage management. These areas are important because they help organizations manage access, secure cloud resources, monitor activity, and protect data.
 
-By completing these labs, I gained practical experience with Azure tools that are used in real IT, cloud, and cybersecurity environments.
+By completing these labs, I gained practical experience with Azure tools that support cloud administration, IT operations, and cybersecurity.
