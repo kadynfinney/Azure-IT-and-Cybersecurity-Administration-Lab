@@ -12,7 +12,6 @@ These skills are useful for roles such as IT Support Specialist, Cloud Support A
 
 - Microsoft Entra ID Identities
 - Azure Subscriptions and RBAC
-- Azure Virtual Networking
 - Azure Monitoring
 - Azure Storage Management
 
@@ -84,41 +83,7 @@ RBAC is important because poor permission management can lead to security risks.
 
 ---
 
-# 3. Azure Virtual Networking
-
-## Description
-
-In this lab, Azure Virtual Networking was used to understand how Azure resources communicate. Virtual networks, subnets, DNS, and Network Security Groups are key parts of cloud infrastructure.
-
-Networking is important for both IT and cybersecurity because secure communication depends on properly configured network boundaries and traffic rules.
-
-## Tasks Completed
-
-- Created and reviewed Azure virtual networks
-- Created and reviewed subnets
-- Reviewed private IP addressing
-- Explored DNS settings
-- Configured Network Security Groups
-- Reviewed inbound and outbound security rules
-- Examined how resources communicate inside a virtual network
-
-## Skills Demonstrated
-
-- Virtual network configuration
-- Subnet management
-- Network Security Group management
-- Cloud networking fundamentals
-- DNS awareness
-- Traffic control
-- Basic network segmentation
-
-## Cybersecurity Relevance
-
-Azure Virtual Networking is important because it helps control how resources connect to each other and to the internet. Network Security Groups help reduce exposure by allowing or denying traffic based on rules.
-
----
-
-# 4. Azure Monitoring
+# 3. Azure Monitoring
 
 ## Description
 
@@ -152,7 +117,7 @@ Monitoring is important because security teams need visibility into cloud activi
 
 ---
 
-# 5. Azure Storage Management
+# 4. Azure Storage Management
 
 ## Description
 
