@@ -117,40 +117,6 @@ Monitoring is important because security teams need visibility into cloud activi
 
 ---
 
-# 4. Azure Storage Management
-
-## Description
-
-In this lab, Azure Storage was used to understand how cloud data is stored, managed, and secured. Azure Storage includes storage accounts, blob storage, file shares, access tiers, and access settings.
-
-Storage security is important because cloud storage can contain sensitive files, logs, backups, and application data.
-
-## Tasks Completed
-
-- Created and reviewed storage accounts
-- Explored blob storage
-- Reviewed Azure file shares
-- Examined access tiers
-- Reviewed storage access settings
-- Practiced managing cloud-based storage
-- Explored storage security options
-
-## Skills Demonstrated
-
-- Azure storage account management
-- Blob storage basics
-- File share management
-- Storage access control
-- Cloud data management
-- Data security awareness
-- Storage security fundamentals
-
-## Cybersecurity Relevance
-
-Azure Storage must be secured to prevent unauthorized access and data exposure. Misconfigured storage can lead to serious security issues, including public data leaks. Proper access control helps protect sensitive cloud data.
-
----
-
 # Tools and Technologies Used
 
 - Microsoft Azure Portal
