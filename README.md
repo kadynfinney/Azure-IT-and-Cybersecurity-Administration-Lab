@@ -13,7 +13,6 @@ These skills are useful for roles such as IT Support Specialist, Cloud Support A
 - Microsoft Entra ID Identities
 - Azure Subscriptions and RBAC
 - Azure Monitoring
-- Azure Storage Management
 
 ---
 
